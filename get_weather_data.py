@@ -13,7 +13,7 @@ import traceback
 from cleardisplay import cleardisplay
 import pyowm
 
-owm = pyowm.OWM('<<<ENTER YOUR KEY HERE>>>')
+owm = pyowm.OWM('<<<OWM API KEY GOES HERE>>>')
 
 city_id = 4180439 # Atlanta, GA, USA
 
@@ -72,6 +72,7 @@ def main():
         else:
             forecast_stats.append("  ----")
 
+    # Print weather details to console
     print("location: " + location)
     print("weather: " + str(weather))
     print("description: " + description)
