@@ -13,7 +13,7 @@ import traceback
 from cleardisplay import cleardisplay
 import pyowm
 
-owm = pyowm.OWM('6247512f91aa075a475215fc436d6ec2')
+owm = pyowm.OWM('<<<ENTER YOUR KEY HERE>>>')
 
 city_id = 4180439 # Atlanta, GA, USA
 
