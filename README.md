@@ -9,6 +9,7 @@ The get_weather_data script uses the OWM API to get the current weather conditio
 It displays the current temperature, high and low temperatures for the day, current precipitation, and a general description of the current weather.
 It also creates a forecast in 3 hour increments for the next 18 hours. 
 It displays only the precipitation for those forecast increments.
+To prevent the screen from burning in, it displays the weather info on the screen for 10 minutes, then clears the screen and goes to sleep.
 
 The 3 button scripts are for the buttons on the ePaper Hat. The top button displays the weather. The 2nd button clears the display. The 4th button clears the display then shuts down the pi.
 
