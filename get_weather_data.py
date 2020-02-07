@@ -82,9 +82,7 @@ def main():
 
     # Display Weather Information on e-Paper Display
     try:
-        print("Clear...")
         epd.init()
-        epd.Clear()
 
         # Drawing on the Horizontal image
         HBlackimage = Image.new('1', (epd2in7b.EPD_HEIGHT, epd2in7b.EPD_WIDTH), 255)  # 298*126
