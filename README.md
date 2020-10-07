@@ -16,3 +16,15 @@ The 3 button scripts are for the buttons on the ePaper Hat. The top button displ
 Much thanks to Sridhar Rajagopal for his tutorial. It gave me the inspiration and much guidance when setting this up for the first time.
 The link for his tutorial is here:
 https://www.hackster.io/sridhar-rajagopal/weather-station-with-epaper-and-raspberry-pi-c26a70
+
+### Install Instructions:
+#### Enable SPI
+'''
+sudo raspi-config
+'''
+Interfacing Options -> SPI -> On
+#### Install Dependencies
+'''
+apt-get install python3-spidev rpi.gpio python3-pil
+pip3 install pyowm==2.10.0
+'''
