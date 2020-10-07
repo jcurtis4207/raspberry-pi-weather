@@ -19,12 +19,12 @@ https://www.hackster.io/sridhar-rajagopal/weather-station-with-epaper-and-raspbe
 
 ### Install Instructions:
 #### Enable SPI
-'''
+```
 sudo raspi-config
-'''
+```
 Interfacing Options -> SPI -> On
 #### Install Dependencies
-'''
+```
 apt-get install python3-spidev rpi.gpio python3-pil
 pip3 install pyowm==2.10.0
-'''
+```
